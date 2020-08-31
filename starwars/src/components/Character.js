@@ -4,14 +4,14 @@ import axios from "axios";
 import CharacterCard from "../components/CharacterCard";
 
 const Character = () => {
-  //declaring state
+  //Declaring state
   const [character, setCharacter] = useState([]);
 
   useEffect(() => {
     axios
       .get("https://swapi.py4e.com/api/people")
       .then((response) => {
-        // reference setState function
+        // Reference setState function
         console.log(response);
         setCharacter(response.data.results);
       })

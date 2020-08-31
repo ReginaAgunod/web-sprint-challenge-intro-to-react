@@ -27,7 +27,7 @@ const CharacterCard = (props) => {
         <CardSubtitle className="subtitle">Hair Color</CardSubtitle>
         <CardText className="text">{props.hair}</CardText>
         <Button a href="https://www.starwars.com/" className="button">
-          StarWars Website
+          Join the Force
         </Button>
       </CardBody>
     </Card>
