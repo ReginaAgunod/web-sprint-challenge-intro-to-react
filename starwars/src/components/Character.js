@@ -1,6 +1,7 @@
-//Character component here
-import React, { useState, useEffect } from "react";
+// Character component here
 import axios from "axios";
+import React, { useEffect, useState } from "react";
+
 import CharacterCard from "../components/CharacterCard";
 
 const Character = () => {

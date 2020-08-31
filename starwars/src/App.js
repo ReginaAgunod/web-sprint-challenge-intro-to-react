@@ -1,5 +1,7 @@
-import React from "react";
 import "./App.css";
+
+import React from "react";
+
 import Character from "./components/Character";
 import logo from "./images/Logo.png";
 
