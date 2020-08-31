@@ -1,14 +1,15 @@
+import "./CharacterCard.css";
+
 import React from "react";
 import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardBody,
-  CardText,
-  CardSubtitle,
   Button,
+  Card,
+  CardBody,
+  CardHeader,
+  CardSubtitle,
+  CardText,
+  CardTitle,
 } from "reactstrap";
-import "./CharacterCard.css";
 
 const CharacterCard = (props) => {
   return (
